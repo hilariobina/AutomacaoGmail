@@ -1,0 +1,15 @@
+
+Feature: cadastro Gmail
+  Eu como usuário gostaria de uma aplicação que efetuasse o cadastro no Gmail
+  automaticamente.
+
+ 
+  Scenario: Cadastro de Formulário Gmail
+    Given Quando eu acessar o site do Gmail, devera ser aprsentado o formulário.
+    And some other precondition
+    When I complete action
+    And some other action
+    And yet another action
+    Then I validate the outcomes
+    And check more outcomes
+

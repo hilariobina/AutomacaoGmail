@@ -1,0 +1,44 @@
+package cadastroGmail.cadastroGmail;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.java.en.Given;
+
+public class CadastroGmailStep {
+	
+	private WebDriver driver;
+
+@Given("^Acessar o site do Gmail$")
+public void acessar_o_site_do_Gmail() throws Throwable {
+	
+	System.setProperty("webdriver.chrome.driver", "C:/Users/Administrator/Documents/Estudos Automação/cadastroGmail/cadastroGmail/feactures/cadastrogmail.feature");
+    driver = new ChromeDriver();
+    driver.get("https://www.google.com/intl/pt/gmail/about/#");
+}
+
+@Given("^clicar no botão CREATE AN ACCOUNT$")
+public void clicar_no_botão_CREATE_AN_ACCOUNT()  {
+	driver.findElement(By.xpath("html/body/main/section/div[2]/div[2]/a[1]")).click();
+    
+}
+
+@Given("^preencher os campos Nome e SobreNome$")
+public void preencher_os_campos_Nome_e_SobreNome()  {
+	driver.findElement(By.xpath(".//*[@id='FirstName']")).sendKeys("Hugo");
+	driver.findElement(By.xpath(".//*[@id='lastname-placeholder']")).sendKeys("Moura");
+    
+}
+
+@Given("^prenecher o usuário$")
+public void prenecher_o_usuário()  {
+    
+}
+
+@Given("^criar uma senha e confirmar senha$")
+public void criar_uma_senha_e_confirmar_senha() {
+    
+}
+
+}

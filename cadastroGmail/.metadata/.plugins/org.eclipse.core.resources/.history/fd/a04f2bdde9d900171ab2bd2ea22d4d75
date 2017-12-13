@@ -1,0 +1,16 @@
+
+Feature: cadastro Gmail
+  Eu como usuário gostaria de uma aplicação que efetuasse o cadastro no Gmail
+  automaticamente.
+
+ 
+  Scenario: Cadastro de Formulário Gmail
+    Given Acessar o site do Gmail
+    And clicar no botão CREATE AN ACCOUNT
+    And preencher os campos Nome e SobreNome
+    When I complete action
+    And some other action
+    And yet another action
+    Then I validate the outcomes
+    And check more outcomes
+

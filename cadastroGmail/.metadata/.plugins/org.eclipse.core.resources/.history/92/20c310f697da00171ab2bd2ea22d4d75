@@ -1,0 +1,62 @@
+package cadastroGmail.cadastroGmail;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+
+public class CadastroGmailStep {
+	
+	private WebDriver driver;
+	
+
+@Given("^Acessar o site do Gmail$")
+public void acessar_o_site_do_Gmail()  {
+	
+	System.setProperty("webdriver.chrome.driver", "C:/Users/Administrator/Documents/Estudos Automação/cadastroGmail/cadastroGmail/drivers/chromedriver.exe");
+    driver = new ChromeDriver();
+    driver.get("https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default");
+}
+
+
+@Given("^preencher os campos Nome e SobreNome$")
+public void preencher_os_campos_Nome_e_SobreNome()  {
+	driver.findElement(By.xpath(".//*[@id='FirstName']")).sendKeys("Hugo");
+	driver.findElement(By.xpath("//*[@id='LastName']")).sendKeys("Moura");
+	    
+}
+
+@Given("^prenecher o usuário$")
+public void prenecher_o_usuário()  {
+	driver.findElement(By.xpath("//*[@id='GmailAddress']")).sendKeys("hugo.mora2356");
+    
+}
+
+@Given("^criar uma senha e confirmar senha$")
+public void criar_uma_senha_e_confirmar_senha() {
+	driver.findElement(By.xpath("//*[@id='Passwd']")).sendKeys("Mudar@123");
+	driver.findElement(By.xpath("//*[@id='PasswdAgain']")).sendKeys("Mudar@123");
+    
+}
+@When("^digito a data de nascimento$")
+public void digito_a_data_de_nascimento()  {
+	/*Select mes = new Select(driver.findElement(By.xpath("//*[@id='BirthMonth']/div")));
+	mes.selectByVisibleText("Agosto");*/
+	driver.findElement(By.xpath("//*[@id='BirthMonth']/div")).click();
+	driver.findElement(By.xpath("//*[@id=':7']")).click();
+	driver.findElement(By.xpath("//*[@id='birthday-placeholder']")).sendKeys("12");
+	driver.findElement(By.xpath("//*[@id='BirthYear']")).sendKeys("1979");
+    
+}
+
+@When("^escolho o sexo$")
+public void escolho_o_sexo()  {
+	Select sexo = new Select(driver.findElement(By.xpath("//*[@id='Gender']/div")));
+	sexo.selectByVisibleText("Masculino");
+    
+}
+
+}

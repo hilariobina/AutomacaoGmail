@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CadastroGmailTeste" project="cadastroGmail" tests="6" started="6" failures="0" errors="2" ignored="0">
+  <testsuite name="cadastroGmail.cadastroGmail.CadastroGmailTeste" time="1.959">
+    <testsuite name="Feature: cadastro Gmail" time="1.959">
+      <testsuite name="Scenario: Cadastro de Formulário Gmail" time="1.959" incomplete="true">
+        <error>java.lang.NullPointerException&#13;
+	at cadastroGmail.capturaTela.CapturaTela.capturatela(CapturaTela.java:20)&#13;
+	at cadastroGmail.cadastroGmail.CadastroGmailStep.escolho_o_sexo(CadastroGmailStep.java:80)&#13;
+	at ✽.And escolho o sexo(feactures/cadastrogmail.feature:11)&#13;
+&#13;
+</error>
+        <testcase name="Given Acessar o site do Gmail" classname="Scenario: Cadastro de Formulário Gmail" time="0.351"/>
+        <testcase name="And preencher os campos Nome e SobreNome" classname="Scenario: Cadastro de Formulário Gmail" time="0.389"/>
+        <testcase name="And prenecher o usuário" classname="Scenario: Cadastro de Formulário Gmail" time="0.649"/>
+        <testcase name="And criar uma senha e confirmar senha" classname="Scenario: Cadastro de Formulário Gmail" time="0.39"/>
+        <testcase name="When digito a data de nascimento" classname="Scenario: Cadastro de Formulário Gmail" time="0.179"/>
+        <testcase name="And escolho o sexo" classname="Scenario: Cadastro de Formulário Gmail" time="0.001">
+          <error>java.lang.NullPointerException&#13;
+	at cadastroGmail.capturaTela.CapturaTela.capturatela(CapturaTela.java:20)&#13;
+	at cadastroGmail.cadastroGmail.CadastroGmailStep.escolho_o_sexo(CadastroGmailStep.java:80)&#13;
+	at ✽.And escolho o sexo(feactures/cadastrogmail.feature:11)&#13;
+&#13;
+</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
