@@ -541,3 +541,35 @@
 2017-12-12 16:19:07,239 [Worker-360] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Documents\Estudos Automação\cadastroGmail\cadastroGmail\src\main\resources
 2017-12-12 16:19:07,240 [Worker-360] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-12-12 16:19:07,240 [Worker-360] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Documents\Estudos Automação\cadastroGmail\cadastroGmail\src\test\resources
+2017-12-13 14:25:28,591 [Worker-554] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-13 14:25:28,592 [Worker-554] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Documents\Estudos Automação\cadastroGmail\cadastroGmail\src\main\resources
+2017-12-13 14:25:28,617 [Worker-554] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-13 14:25:28,617 [Worker-554] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Documents\Estudos Automação\cadastroGmail\cadastroGmail\src\test\resources
+2017-12-13 14:25:36,964 [Worker-556] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-13 14:25:36,964 [Worker-556] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Documents\Estudos Automação\cadastroGmail\cadastroGmail\src\main\resources
+2017-12-13 14:25:36,966 [Worker-556] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-13 14:25:36,967 [Worker-556] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Documents\Estudos Automação\cadastroGmail\cadastroGmail\src\test\resources
+2017-12-13 14:25:44,054 [Worker-549] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-13 14:25:44,060 [Worker-549] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Documents\Estudos Automação\cadastroGmail\cadastroGmail\src\main\resources
+2017-12-13 14:25:44,066 [Worker-549] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-13 14:25:44,066 [Worker-549] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Documents\Estudos Automação\cadastroGmail\cadastroGmail\src\test\resources
+2017-12-13 14:28:12,616 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-13 14:28:12,616 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Documents\Estudos Automação\cadastroGmail\cadastroGmail\src\main\resources
+2017-12-13 14:28:12,617 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-13 14:28:12,617 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Documents\Estudos Automação\cadastroGmail\cadastroGmail\src\test\resources
+2017-12-13 14:29:16,461 [Worker-549] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-13 14:29:16,468 [Worker-549] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Documents\Estudos Automação\cadastroGmail\cadastroGmail\src\main\resources
+2017-12-13 14:29:16,476 [Worker-549] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-13 14:29:16,476 [Worker-549] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Documents\Estudos Automação\cadastroGmail\cadastroGmail\src\test\resources
+2017-12-14 10:07:19,337 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-14 10:07:19,372 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Documents\Estudos Automação\cadastroGmail\cadastroGmail\src\main\resources
+2017-12-14 10:07:19,373 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-14 10:07:19,373 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Documents\Estudos Automação\cadastroGmail\cadastroGmail\src\test\resources
+2017-12-14 10:08:20,015 [Worker-655] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-14 10:08:20,021 [Worker-655] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Documents\Estudos Automação\cadastroGmail\cadastroGmail\src\main\resources
+2017-12-14 10:08:20,027 [Worker-655] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-14 10:08:20,027 [Worker-655] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Documents\Estudos Automação\cadastroGmail\cadastroGmail\src\test\resources
+2017-12-14 10:09:38,782 [Worker-653] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-14 10:09:38,782 [Worker-653] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Documents\Estudos Automação\cadastroGmail\cadastroGmail\src\main\resources
+2017-12-14 10:09:38,784 [Worker-653] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-14 10:09:38,784 [Worker-653] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Administrator\Documents\Estudos Automação\cadastroGmail\cadastroGmail\src\test\resources

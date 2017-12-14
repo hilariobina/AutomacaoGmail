@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -51,8 +50,8 @@ public void criar_uma_senha_e_confirmar_senha() {
 @When("^digito a data de nascimento$")
 public void digito_a_data_de_nascimento()  {
 	
-	 /*elect combo =  new Select(driver.findElement(By.id(":0")));
-	 combo.selectByVisibleText("August");*/
+	 Select combo =  new Select(driver.findElement(By.xpath("//*[@id='BirthMonth']/div")));
+	 combo.selectByVisibleText("August");
 	
 	driver.findElement(By.xpath("//*[@id='BirthMonth']/div")).click();
 	driver.findElement(By.xpath("//*[@id=':7']")).click();
@@ -68,13 +67,10 @@ public void escolho_o_sexo()  {
 	
 	driver.findElement(By.xpath("//*[@id='Gender']/div")).click();
 	driver.findElement(By.xpath("//*[@id=':f']/div")).click();
-	
-	JavascriptExecutor jse = (JavascriptExecutor)driver;
-	jse.executeScript("scroll(0,150);");
 			
 	try {
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		Files.copy(scrFile, new File("C:\\Cadastro1parte.JPEG"));
+		Files.copy(scrFile, new File("C:\\Gmailcadastro1.JPEG"));
 	} catch (IOException e) {
 			e.printStackTrace();
 	}

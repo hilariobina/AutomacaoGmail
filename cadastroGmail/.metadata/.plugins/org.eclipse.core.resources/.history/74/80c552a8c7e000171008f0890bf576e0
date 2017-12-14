@@ -74,7 +74,7 @@ public void escolho_o_sexo()  {
 			
 	try {
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		Files.copy(scrFile, new File("C:\\Cadastro1parte.JPEG"));
+		Files.copy(scrFile, new File("C:\\Gmailcadastro1.JPEG"));
 	} catch (IOException e) {
 			e.printStackTrace();
 	}

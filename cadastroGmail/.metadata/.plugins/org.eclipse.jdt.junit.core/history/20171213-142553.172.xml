@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CadastroGmailTeste" project="cadastroGmail" tests="6" started="6" failures="0" errors="2" ignored="1">
+  <testsuite name="cadastroGmail.cadastroGmail.CadastroGmailTeste" time="1.45">
+    <testsuite name="Feature: cadastro Gmail" time="1.45">
+      <testsuite name="Scenario: Cadastro de Formulário Gmail" time="1.444" incomplete="true">
+        <error>org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'NBPITANG-119', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_151'
+Driver info: driver.version: unknown&#13;
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:47)&#13;
+	at cadastroGmail.cadastroGmail.CadastroGmailStep.digito_a_data_de_nascimento(CadastroGmailStep.java:53)&#13;
+	at ✽.When digito a data de nascimento(feactures/cadastrogmail.feature:10)&#13;
+&#13;
+</error>
+        <testcase name="Given Acessar o site do Gmail" classname="Scenario: Cadastro de Formulário Gmail" time="0.332"/>
+        <testcase name="And preencher os campos Nome e SobreNome" classname="Scenario: Cadastro de Formulário Gmail" time="0.4"/>
+        <testcase name="And prenecher o usuário" classname="Scenario: Cadastro de Formulário Gmail" time="0.645"/>
+        <testcase name="And criar uma senha e confirmar senha" classname="Scenario: Cadastro de Formulário Gmail" time="0.065"/>
+        <testcase name="When digito a data de nascimento" classname="Scenario: Cadastro de Formulário Gmail" time="0.002">
+          <error>org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'NBPITANG-119', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_151'
+Driver info: driver.version: unknown&#13;
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:47)&#13;
+	at cadastroGmail.cadastroGmail.CadastroGmailStep.digito_a_data_de_nascimento(CadastroGmailStep.java:53)&#13;
+	at ✽.When digito a data de nascimento(feactures/cadastrogmail.feature:10)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="And escolho o sexo" classname="Scenario: Cadastro de Formulário Gmail" time="0.005" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

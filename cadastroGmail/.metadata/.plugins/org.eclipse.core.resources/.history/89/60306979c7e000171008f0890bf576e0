@@ -70,11 +70,11 @@ public void escolho_o_sexo()  {
 	driver.findElement(By.xpath("//*[@id=':f']/div")).click();
 	
 	JavascriptExecutor jse = (JavascriptExecutor)driver;
-	jse.executeScript("scroll(0,150);");
+	jse.executeScript("scroll(0,250);");
 			
 	try {
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		Files.copy(scrFile, new File("C:\\Cadastro1parte.JPEG"));
+		Files.copy(scrFile, new File("C:\\Gmailcadastro1.JPEG"));
 	} catch (IOException e) {
 			e.printStackTrace();
 	}
