@@ -70,15 +70,8 @@ public void escolho_o_sexo()  {
 	driver.findElement(By.xpath("//*[@id=':f']/div")).click();
 	
 	JavascriptExecutor jse = (JavascriptExecutor)driver;
-	jse.executeScript("scroll(0,250);");
+	jse.executeScript("scroll(0,150);");
 			
-	}
-@When("^E digito o numero do Telefe, Email atual e clico no botão Next$")
-public void e_digito_o_numero_do_Telefe_Email_atual_e_clico_no_botão_Next()  {
-	
-	driver.findElement(By.xpath("//*[@id='RecoveryPhoneNumber']")).sendKeys("1158423272");
-	driver.findElement(By.xpath("//*[@id='RecoveryEmailAddress']")).sendKeys("hilario.bina@pitnag.com");
-	
 	try {
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		Files.copy(scrFile, new File("C:\\Cadastro1parte.JPEG"));
@@ -87,23 +80,9 @@ public void e_digito_o_numero_do_Telefe_Email_atual_e_clico_no_botão_Next()  {
 	}
 	
 	
-	driver.findElement(By.xpath("//*[@id='submitbutton']")).click();
-	
-	try {
-		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		Files.copy(scrFile, new File("C:\\Cadastro2parte.JPEG"));
-	} catch (IOException e) {
-			e.printStackTrace();
-	}
-	
-	driver.findElement(By.xpath("//*[@id='tos-text']")).click();
-	JavascriptExecutor jse = (JavascriptExecutor)driver;
-	jse.executeScript("window.scrollTo(0, document.body.scrollIntoView(top))");
-	
-	
-	//Termo de licença - 
-	//Botão Aceito - //*[@id="iagreebutton"]
- 
+/*	Mobile Phone //*[@id="RecoveryPhoneNumber"]
+	Email atual //*[@id="RecoveryEmailAddress"]
+    Botão - //*[@id="submitbutton"] */
 }
 
 }

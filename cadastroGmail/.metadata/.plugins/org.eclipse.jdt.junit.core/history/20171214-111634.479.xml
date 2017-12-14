@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CadastroGmailTeste" project="cadastroGmail" tests="7" started="7" failures="0" errors="2" ignored="1">
+  <testsuite name="cadastroGmail.cadastroGmail.CadastroGmailTeste" time="0.0">
+    <testsuite name="Feature: cadastro Gmail" time="0.0">
+      <testsuite name="Scenario: Cadastro de Formulário Gmail" time="0.0" incomplete="true">
+        <error>java.lang.Error: Unresolved compilation problems: 
+	Mobile cannot be resolved to a type
+	Syntax error on token "Email", ; expected
+	atual cannot be resolved to a type
+	Syntax error on token "-", ; expected
+&#13;
+	at cadastroGmail.cadastroGmail.CadastroGmailStep.escolho_o_sexo(CadastroGmailStep.java:83)&#13;
+	at ✽.And escolho o sexo(feactures/cadastrogmail.feature:11)&#13;
+&#13;
+</error>
+        <testcase name="Given Acessar o site do Gmail" classname="Scenario: Cadastro de Formulário Gmail" time="0.0"/>
+        <testcase name="And preencher os campos Nome e SobreNome" classname="Scenario: Cadastro de Formulário Gmail" time="0.0"/>
+        <testcase name="And prenecher o usuário" classname="Scenario: Cadastro de Formulário Gmail" time="0.0"/>
+        <testcase name="And criar uma senha e confirmar senha" classname="Scenario: Cadastro de Formulário Gmail" time="0.0"/>
+        <testcase name="When digito a data de nascimento" classname="Scenario: Cadastro de Formulário Gmail" time="0.0"/>
+        <testcase name="And escolho o sexo" classname="Scenario: Cadastro de Formulário Gmail" time="0.0">
+          <error>java.lang.Error: Unresolved compilation problems: 
+	Mobile cannot be resolved to a type
+	Syntax error on token "Email", ; expected
+	atual cannot be resolved to a type
+	Syntax error on token "-", ; expected
+&#13;
+	at cadastroGmail.cadastroGmail.CadastroGmailStep.escolho_o_sexo(CadastroGmailStep.java:83)&#13;
+	at ✽.And escolho o sexo(feactures/cadastrogmail.feature:11)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="And E digito o numero do Telefe, Email atual e clico no botão Next" classname="Scenario: Cadastro de Formulário Gmail" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

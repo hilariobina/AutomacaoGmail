@@ -98,9 +98,11 @@ public void e_digito_o_numero_do_Telefe_Email_atual_e_clico_no_botão_Next()  {
 	
 	driver.findElement(By.xpath("//*[@id='tos-text']")).click();
 	JavascriptExecutor jse = (JavascriptExecutor)driver;
-	jse.executeScript("window.scrollTo(0, document.body.scrollIntoView(top))");
+	jse.executeScript("window.scrollTo(0, document.body.scrollHeigt/1)");
 	
-	
+	driver.findElement(By.xpath("//*[@id='tos-text']")).click();
+	JavascriptExecutor jse1 = (JavascriptExecutor)driver;
+	jse1.executeScript("window.scrollTo(0, document.body.scrollHeigt/1)");
 	//Termo de licença - 
 	//Botão Aceito - //*[@id="iagreebutton"]
  

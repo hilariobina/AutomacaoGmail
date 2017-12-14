@@ -96,13 +96,8 @@ public void e_digito_o_numero_do_Telefe_Email_atual_e_clico_no_botão_Next()  {
 			e.printStackTrace();
 	}
 	
-	driver.findElement(By.xpath("//*[@id='tos-text']")).click();
 	JavascriptExecutor jse = (JavascriptExecutor)driver;
-	jse.executeScript("window.scrollTo(0, document.body.scrollIntoView(top))");
-	
-	
-	//Termo de licença - 
-	//Botão Aceito - //*[@id="iagreebutton"]
+	jse.executeScript("scroll(0,400);");
  
 }
 

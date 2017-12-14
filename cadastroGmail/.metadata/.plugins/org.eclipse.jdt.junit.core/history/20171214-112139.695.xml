@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CadastroGmailTeste" project="cadastroGmail" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="cadastroGmail.cadastroGmail.CadastroGmailTeste" time="4.282">
+    <testsuite name="Feature: cadastro Gmail" time="4.282">
+      <testsuite name="Scenario: Cadastro de Formulário Gmail" time="4.282">
+        <testcase name="Given Acessar o site do Gmail" classname="Scenario: Cadastro de Formulário Gmail" time="0.34"/>
+        <testcase name="And preencher os campos Nome e SobreNome" classname="Scenario: Cadastro de Formulário Gmail" time="0.415"/>
+        <testcase name="And prenecher o usuário" classname="Scenario: Cadastro de Formulário Gmail" time="0.711"/>
+        <testcase name="And criar uma senha e confirmar senha" classname="Scenario: Cadastro de Formulário Gmail" time="0.4"/>
+        <testcase name="When digito a data de nascimento" classname="Scenario: Cadastro de Formulário Gmail" time="0.189"/>
+        <testcase name="And escolho o sexo" classname="Scenario: Cadastro de Formulário Gmail" time="2.222"/>
+        <testcase name="And E digito o numero do Telefe, Email atual e clico no botão Next" classname="Scenario: Cadastro de Formulário Gmail" time="0.005"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

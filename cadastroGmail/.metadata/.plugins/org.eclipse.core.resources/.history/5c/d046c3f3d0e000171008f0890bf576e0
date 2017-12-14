@@ -9,4 +9,3 @@ Feature: cadastro Gmail
     And criar uma senha e confirmar senha
     When digito a data de nascimento
     And escolho o sexo
-    And E digito o numero do Telefe, Email atual e clico no botão Next
